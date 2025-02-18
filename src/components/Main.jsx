@@ -1,7 +1,7 @@
 function Main () {
     return(
         <div className="Main">
-            <h2>Qui va il contenuto</h2>
+            <h1 className="testo-main">Qui va il contenuto</h1>
         </div>
     )
 }

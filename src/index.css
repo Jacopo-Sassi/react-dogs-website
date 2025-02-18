@@ -4,6 +4,8 @@ html, body, #root {
   box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 .logo {
   width: 50px;
   height: 50px;
@@ -35,6 +37,7 @@ html, body, #root {
   margin-left: 10%;
   margin-top: 1%;
   gap: 5%;
+  margin-bottom: -3%;
 }
 
 .right{
@@ -46,7 +49,11 @@ html, body, #root {
 
 .Main {
   padding: 1rem;
-  
+}
+
+.testo-main {
+  position: relative;
+  right: -10%;
 }
 
 .footer {
@@ -54,8 +61,37 @@ html, body, #root {
   padding: 1rem;
   padding-bottom: 32rem;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20%;
 }
+
+.contenitore-sezioni {
+  display: flex;
+  justify-content: center;
+  gap: 20%;
+  background-color: rgb(1, 1, 37);
+  padding: 1rem;
+}
+
 
 .testo-footer{
   color: white;
+}
+
+button {
+  display: block;
+  margin-top: 5%;
+  color: white;
+  text-align: center;
+  background-color: darkcyan;
+  border-radius: 5px;
+  padding: 9px;
+}
+
+.copyright{
+  position: relative;
+  text-align: center;
+  margin-top: 2%;
+  padding: 5%;
 }
