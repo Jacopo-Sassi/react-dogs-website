@@ -1,0 +1,61 @@
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.header{
+  display: flex;
+  background-color: dodgerblue;
+  padding: 1rem;
+  justify-content: space-between;
+  margin-top: -1%;
+}
+
+.testo-header {
+  color: white;
+}
+
+.white-space {
+  white-space: nowrap;
+}
+
+.pawsome {
+  position: relative;
+  top: -15%;
+}
+
+.left {
+  display: flex;
+  margin-left: 10%;
+  margin-top: 1%;
+  gap: 5%;
+}
+
+.right{
+  display: flex;
+  margin-right: 10%;
+  margin-top: 1.5%;
+  gap: 20%;
+}
+
+.Main {
+  padding: 1rem;
+  
+}
+
+.footer {
+  background-color: rgb(1, 1, 37);
+  padding: 1rem;
+  padding-bottom: 32rem;
+  display: flex;
+}
+
+.testo-footer{
+  color: white;
+}
